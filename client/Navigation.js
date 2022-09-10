@@ -22,13 +22,15 @@ function Tabs() {
       screenOptions={{
         tabBarActiveTintColor: "black",
         tabBarStyle: { backgroundColor: "#DFE8FF", height: 78.16, padding: 10, margin: 0, paddingBottom: 11 },
+        headerShown: false
       }}
+      sceneContainerStyle={{backgroundColor: "#D6E2FF"}}
     >
       <Tab.Screen
         name="Home"
         component={HomeScreen}
         options={{
-          tabBarIcon: ({ color, size }) => (
+          tabBarIcon: () => (
             <SimpleLineIcons name="home" size={26} color="black" />
           ),
         }}
@@ -37,7 +39,7 @@ function Tabs() {
         name="Explorar"
         component={ExplorarScreen}
         options={{
-          tabBarIcon: ({ color, size }) => (
+          tabBarIcon: () => (
             <FontAwesome5 name="binoculars" size={28} color="black" />
           ),
         }}
@@ -46,7 +48,7 @@ function Tabs() {
         name=" "
         component={AddScreen}
         options={{
-          tabBarIcon: ({ color, size }) => (
+          tabBarIcon: () => (
             <Entypo name="circle-with-plus" size={38} color="black" />
           ),
         }}
@@ -55,13 +57,13 @@ function Tabs() {
         name="Notificaciones"
         component={NotificacionesScreen}
         options={{
-          tabBarIcon: ({ color, size }) => (
+          tabBarIcon: () => (
             <Ionicons name="notifications-outline" size={29} color="black" />
           ),
         }}
       />
       <Tab.Screen name="Perfil" component={PerfilScreen} options={{
-          tabBarIcon: ({ color, size }) => (
+          tabBarIcon: () => (
             <Ionicons name="person-circle" size={35} color="black" />
           ),
         }}/>
