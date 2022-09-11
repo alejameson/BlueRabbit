@@ -2,7 +2,7 @@
 Bluerabbit React Native challenge
 
 <p align="center">
-  <img height="350" src="./client/assets/screen.jpeg" />
+  <img height="450" src="./client/assets/screen.jpeg" />
 </p>
 
 ## Descripcion:
