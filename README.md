@@ -1,6 +1,10 @@
 # BlueRabbit
 Bluerabbit React Native challenge
 
+<p align="center">
+  <img src="./client/assets/screen.jpeg" />
+</p>
+
 ## Descripcion:
 Challenge de React Native, la aplicacion muestra solo una pantalla de una red social, esta misma pantalla tiene un header, un input para buscar amigos y ademas muestra un listado de universidades. De bajo tenemos una lista de 20 usuarios, la aplicacion solo muestra de a 10 usuarios, ademas si hacemos click en la opcion "+ Conectar" de cada usuario, este se eliminara de la lista. Tambien cuenta con un TabBar para poder navegar entre las distintas pantallas.
 
